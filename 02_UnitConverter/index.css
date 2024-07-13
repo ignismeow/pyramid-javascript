@@ -1,0 +1,93 @@
+body {
+    display: flex; /* Enable Flexbox layout */
+    justify-content: center; /* Center horizontally */
+    align-items: center;   /* Center vertically */
+    min-height: 100vh;     /* Ensure body covers full viewport height */
+    background: #111827;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+
+.container{
+    width: 60vh;
+    background: #1F2937;
+    margin: 100px;
+    border-radius: 10px;
+}
+
+.input-container{
+    background: #6943FF;
+    padding: 50px 50px;
+    border-radius: 5px;
+}
+
+.input-container h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+    padding: 0;
+}
+
+.input-container input{
+    margin: 0 auto;
+    display: block;
+    padding: 15px;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 4px;
+    background: #6943FF;
+    width: 100px;
+    height: 100px;
+    font-size: 3.5rem;
+    font-weight:bold;
+    color: white;
+    text-align: center;
+}
+
+#convert-btn{
+    margin: 0 auto;
+    margin-top: 30px;
+    display: block;
+    background: #fff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: medium;
+    cursor: pointer;
+}
+
+#length{
+    text-align: center;
+    background: #273549;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+#length h2{
+    color: #CCC1FF;
+}
+
+#volume{
+    text-align: center;
+    background: #273549;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+#volume h2{
+    color: #CCC1FF;
+}
+
+#mass{
+    text-align: center;
+    background: #273549;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+#mass h2{
+    color: #CCC1FF;
+}
