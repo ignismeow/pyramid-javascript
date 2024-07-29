@@ -1,0 +1,58 @@
+@font-face {
+  font-family: Technology;
+  src: url(Technology.ttf);
+}
+
+.boxed-layout .wrapper { width: 1000px; }
+
+body {
+  margin: 0;
+  background: #1b244a;
+  color: #EEEEEE;
+  height: 100vh;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+#trumpScore {
+  background: black;
+  color: #f94f6d;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  font-size: 50px;
+  border-radius: 10px;
+  font-family: Technology;
+}
+
+#bidenScore {
+    background: black;
+    color: #f94f6d;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    font-size: 50px;
+    border-radius: 10px;
+    font-family: Technology;
+}
+
+button {
+  background: #1b244a;
+  color: #9aabd8;
+  outline: none;
+  border: 1px solid;
+  border-radius: 2px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.resetbtn{
+  margin-top: 10px;
+  padding: 10px 20px;
+}
+
+
