@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trump-Biden Score Board</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="trump">
+            <h3 id="comp0ne">TRUMP</h3>
+            <p id="trumpScore">0</p>
+            <button onclick="trumponePoint()">+1</button>
+            <button onclick="trumpthreePoint()">+3</button>
+            <button onclick="trumpfivePoint()">+5</button>
+        </div>
+        <div class="biden">
+            <h3>BIDEN</h3>
+            <p id="bidenScore">0</p>
+            <button onclick="bidenonePoint()">+1</button>
+            <button onclick="bidenthreePoint()">+3</button>
+            <button onclick="bidenfivePoint()">+5</button>
+        </div>
+    </div>
+    <div class="resetbtn">
+        <button id = "resetbtn"  onclick="resetbtn()">Reset</button>
+    </div>
+    <!-- <div class="newComp">
+        <button id = "newComp"  onclick="newComp()">New Competitor</button>
+    </div> -->
+
+    <script src="index.js"></script>
+</body>
+
+</html>
