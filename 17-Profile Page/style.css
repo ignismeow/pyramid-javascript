@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilory
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+}
+
+.intro {
+    height: 380px;
+    width: 100%;
+    background-color: antiquewhite;
+    padding: 3em 3.5rem;
+}
+
+.intro h1 {
+    font-size: 7rem;
+    line-height: 110px;
+    letter-spacing: -3px;
+}
+
+.location {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3em;
+}
+
+.location i {
+    margin-right: .2em;
+    font-size: 1.5rem;
+}
+
+.location h3, h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.image-container {
+    height: 87%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1450133064473-71024230f91b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+
+.nav {
+    color: whitesmoke;
+    position: fixed;
+    top: 7%;
+    right: 4.5%;
+    display: flex;
+    gap: .5em;
+    
+}
+
+.nav h3 {
+    background-color: black;
+    border-radius: 100vw;
+    padding: 0.5em 1em;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.about {
+    height: 45%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3em 3.5rem;
+}
+
+.about h2 {
+    width: 70%;
+    font-size: 3.8rem;
+    line-height: 70px;
+    font-weight: 500;
+}
+
+.about-part {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-left: 2px solid black;
+    padding: 0 4em;
+}
+
+.about-part h3 {
+    font-size: 1.5rem;
+    font-weight: 600;    
+    width: 100%;
+}
+
+.icons {
+    gap: 1em;
+}
+
+.icons i{
+    background-color: black;
+    color: white;
+    border-radius: 100vw;
+    font-size: 1.3rem;
+    padding: .5em;
+    margin-right: .3em;
+}
+
+.work {
+    height: 55%;
+    width: 100%;
+    padding: 3em 3.5rem;
+    border-top: 2px solid black;
+    display: flex;
+}
+
+.work-section-one {
+    width: 30%;
+    height: 100%;
+    border-right: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2em;
+}
+
+.work-section-one i {
+    font-size: 2rem;
+}
+
+.work-section-one h3 {
+    font-size: 1.5rem;
+}
+
+.work-section-two{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.work-two-part {
+    padding: 0 3em;
+}
+
+.usp h3 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.left-border {
+    border-left: 2px solid black;
+}
