@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+    font-family: "Poppins", serif;
+    /* overflow-x: hidden; */
+}
+
+header {
+    padding: 2em 1em;
+    border-bottom: 2px solid lightgray;
+}
+
+nav {
+    display: grid;
+    justify-content: center;
+    align-items: end;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+}
+
+.selectionInput{
+    width: 100%;
+    height: 5vh;
+    padding: .5em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: inherit;
+    outline: none;
+    border: 2px solid lightgray;
+    font-size: 1rem;
+}
+
+.colorInput, .btn {
+    width: 100%;
+    height: 5vh;
+    padding: 2px;
+    border: none;
+    border: 2px solid lightgray;
+    overflow: hidden;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+.all-colors{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+}
+
+
+.imageContainer img {
+    height: 70vh;
+    width: 100%;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.imageContainer span {
+    width: 100%;
+    border-bottom: 2px solid lightgray;
+    border-top: 2px solid lightgray;
+    background-color: white;
+    padding: .5em 0;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.btn:hover {
+    background-color: lightgray
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    margin: 2em 0;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    .imageContainer {
+        grid-column: span 8;
+    }
+
+    .imageContainer img {
+        height: 10vh;
+        width: 100%;
+    }
+
+    nav {
+        grid-template-columns:  1fr;
+    }
+    
+}

@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+                <label for="colorInput">Select Color:</label>
+                <input class="colorInput" type="color" id="colorInput" value="#6910B2">
+            </div>
+            <div>
+                <label for="ColorsOption">Select Category:</label>
+                <select class="selectionInput" name="colors" id="ColorsOption">
+                    <option value="monochrome">Monochrome</option>
+                    <option value="monochrome-dark">Monochrome-dark</option>
+                    <option value="monochrome-light">Monochrome-light</option>
+                    <option value="analogic">Analogic</option>
+                    <option value="complement">Complement</option>
+                    <option value="analogic-complement">Analogic-complement</option>
+                    <option value="quad">Quad</option>
+                </select>
+            </div>
+            <button id="btn" class="btn">Get color scheme</button>
+        </nav>
+    </header>
+    <main>
+        <div id="all-colors" class="all-colors"></div>
+    </main>
+    <footer>
+        <p>created by <a href="https://github.com/saadaltafofficial">@saadaltofficial</a></p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
