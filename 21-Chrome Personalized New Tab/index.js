@@ -2,7 +2,7 @@ const bitcoinEl = document.getElementById("bitcoin");
 
 try {
   const res = await fetch(
-    "https://apis.scrimba.com/unsplash/photos/random?orientation=landscape&query=aturen"
+    ""
   );
   if (!res.ok) {
     throw Error("Something went wrong");
@@ -16,7 +16,7 @@ try {
 }
 
 try {
-  const res = await fetch("https://api.coingecko.com/api/v3/coins/zignaly");
+  const res = await fetch("");
   if (!res.ok) {
     throw Error("Something went wrong");
   }
@@ -34,7 +34,7 @@ try {
 }
 
 try {
-  const res = await fetch("https://api.coingecko.com/api/v3/coins/bitcoin");
+  const res = await fetch("");
   if (!res.ok) {
     throw Error("Something went wrong");
   }
@@ -63,14 +63,14 @@ setInterval(getCurrentTime, 1000);
 
 navigator.geolocation.getCurrentPosition(async (position) => {
   try {
-    const res = await fetch(`https://apis.scrimba.com/openweathermap/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}&units=imperial`
+    const res = await fetch(``
     );
     if (!res.ok) {
       throw Error("Weather data not available");
     }
     const data = await res.json();
     const celsius = (data.main.temp - 32) * 5/9;
-    const iconUrl = `http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
+    const iconUrl = ``;
     document.getElementById("weather").innerHTML = `
             <img src=${iconUrl} />
             <p class="weather-temp">${Math.round(celsius)}º</p>
