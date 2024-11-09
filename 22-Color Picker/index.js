@@ -3,7 +3,7 @@ const allColors = document.getElementById('all-colors')
 const btn = document.getElementById('btn')
 
 async function handleRequest(hex, mode) {
-    const res = await fetch(`https://www.thecolorapi.com/scheme?hex=${hex}&mode=${mode}&count=8`)
+    const res = await fetch(``)
     const data = await res.json()
     colors = data.colors
     
