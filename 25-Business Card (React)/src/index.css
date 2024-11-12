@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body {
+  background-color: #23252C;
+  color: whitesmoke;
+}
+
+
+.main-content {
+  /* background-color: #1A1B21; */
+  max-width: 25%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  padding: 1.4em 1em;
+  text-align: center;
+}
+
+.name h1{
+  font-size: 1.5rem;
+}
+.name p{
+  font-size: .75rem;
+  color: #F3BF99;
+}
+
+.name .website {
+  margin-block: 1em;
+  color: whitesmoke;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5em;
+
+}
+
+button {
+  font-size: .85rem;
+  padding: .5em 1.8em;
+  letter-spacing: .5px;
+  font-weight: 500;
+  border-radius: 4px;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.email {
+  background: whitesmoke;
+  color: #1E1F26;
+}
+
+.linkedin {
+  background: #5093E2;
+  color: whitesmoke;
+}
+
+.details {
+  margin-top: 1em;
+  margin-left: .8em;
+  margin-right: .8em;
+  text-align: left;
+}
+
+.details p {
+  font-size: .75rem;
+  line-height: 1.6em;
+  color: #DCDCDC;
+}
+
+.interests {
+  margin-bottom: 1em;
+}
+
+.icons {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .2em;
+}
+
